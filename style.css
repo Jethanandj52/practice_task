@@ -1,0 +1,239 @@
+body{
+    background-color: aliceblue;
+    padding: 0px;
+    margin: 0px;
+    transition: all 0.s ease-out;
+    width: 100%;
+}
+header{
+    padding: 20px;
+    background-color: rgb(14, 14, 77);
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Dancing Script", cursive;
+   font-optical-sizing: auto;
+    font-weight: 500;
+}
+nav{
+    text-align: right;
+    position: sticky;
+    z-index: 1;
+     top: 0;
+    background-color: rgb(47, 46, 46);
+    padding: 20px;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.5s ease;
+    
+}
+
+#courses{
+    
+padding-left: 50px;
+background-color: rgb(90, 93, 96);
+
+}
+h2{
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    color: rgb(255, 250, 250);
+    text-align: center;
+    font-size: 50px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+video{
+
+text-align: center;
+padding: 20px;
+padding-left: 50px;
+
+}
+#study_Material{
+padding: 30px;
+background-color: rgb(129, 131, 131);
+padding-bottom: 50px;
+ 
+}
+#study_Material img{
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+     
+}
+#founder{
+padding: 20px;
+text-align: center;
+background-color: rgb(161, 169, 169);
+color: rgb(0, 0, 0);
+
+}
+ 
+img{
+ 
+border-radius: 5px;
+box-shadow: 0px 0px 5px black;
+}
+#review{
+    background-color: #bbb;
+    padding: 20px;
+    display: flex;
+}
+.cards{
+    background-color: #aaa9a9;
+    border-style: solid;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    width: 20%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    margin: 15px;
+    border-width: 2px;
+    border-color: rgb(71, 69, 69);
+    transition: all 0.5s ease;
+    box-shadow: 1px 1px 10px black;
+    
+}
+.cards:hover{
+    
+    transform: scale(1.1);
+}
+ 
+#image{
+    text-align: center;
+}
+
+.image{
+    
+    width: 150px;
+    border-radius: 30px;/
+    overflow: hidden;  
+    border:  rgb(94, 90, 90);
+}
+#profile{
+ 
+width: 100px;
+background-color: #bbb;
+border-radius: 10%;
+display: inline-block;
+box-shadow: 1px 1px 10px black;
+margin-bottom: 10px;
+}
+footer{
+text-align: right;
+padding: 20px;
+background-color: black;
+bottom: 0%;
+}
+nav a:hover, footer a:hover{
+
+ 
+font-size: 25px;
+font-family: "Dancing Script", cursive;
+color: aqua;
+border-radius: 20px;   
+transform: scale(1.1);
+
+}
+.icon:hover,#profile:hover {
+    transition: all 0.5s ease;
+transform: scale(1.2);
+}
+.icons:hover{
+    transform: scale(1.2);
+    box-shadow: 1px 1px 10px black;
+}
+.login{
+    background-image: url(images/security2.avif);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+     
+
+}
+input{
+    box-shadow: 1px 1px 10px black;
+}
+fieldset{
+    
+    color: rgb(255, 255, 255);
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10%;
+    padding: 20px;
+    text-align: center;
+    border-color: rgb(144, 144, 164);
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black ;
+
+}
+legend{
+    font-size: 20px;
+    font-family: "Dancing Script", cursive;
+}
+ #forget{
+   
+    text-align: right;
+   text-decoration: underline solid white;
+ }
+ .Forget:hover{
+   
+   
+    font-size: 20px;
+    font-family: "Dancing Script", cursive;  
+    color: aqua;  
+    text-decoration: underline solid aqua;
+ 
+ }
+ button{
+    padding: 10px;
+    color: rgb(254, 254, 254);
+    background-color: rgb(54, 53, 53);
+    box-shadow: 1px 1px 10px black;
+    transition: all 0.5s ease-in;
+ }
+ button:hover{
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+    transform: scale(1.05);
+    text-transform: uppercase;
+ }
+ #button{
+    text-align: left;
+ }
+ input,button{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+ }
+ #playstore{
+    background-color: black;
+    color: white;
+    display: flex;
+     
+    margin-left: 80%;
+    border-radius: 10px;
+    align-items: center;
+    padding-left: 20px;
+}
+#playstore img{
+    padding: 10px;
+    width: 50px;
+}
+.names{
+    font-size: 30px;
+}
+  
+ 
